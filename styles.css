@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    margin: 44px 0 144px 76px;
+}
+
+header a {
+    color: #989D9C;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.login-button {
+    background-color: #665AE1;
+    color: #fff;
+    border: none;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+main {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+    gap:100px;
+}
+
+.we-care-logo {
+    width: 568px;
+    height: 500px;
+}
+
+
+
+.hero-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+h1 {
+    color: #515151;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #515151;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.explore-button {
+    margin-top: 40px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    border-radius: 20.5px;
+    background-color: #adff00;
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+@media min_width=
